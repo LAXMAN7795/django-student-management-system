@@ -1,0 +1,23 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'students/style.css' %}">
+
+<div class="form-container">
+
+<h2>Add / Update Student</h2>
+
+<form method="post">
+{% csrf_token %}
+
+<input type="text" name="name" placeholder="Name" value="{{student.name}}">
+
+<input type="email" name="email" placeholder="Email" value="{{student.email}}">
+
+<input type="text" name="course" placeholder="Course" value="{{student.course}}">
+
+<input type="number" name="age" placeholder="Age" value="{{student.age}}">
+
+<button type="submit">Save</button>
+
+</form>
+
+</div>

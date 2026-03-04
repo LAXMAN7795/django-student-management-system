@@ -1,0 +1,38 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'students/style.css' %}">
+
+<div class="container">
+
+<h1>Student Management System</h1>
+
+<a class="add-btn" href="/add/">Add Student</a>
+
+<table>
+<tr>
+<th>Name</th>
+<th>Email</th>
+<th>Course</th>
+<th>Age</th>
+<th>Actions</th>
+</tr>
+
+{% for student in students %}
+
+<tr>
+<td>{{ student.name }}</td>
+<td>{{ student.email }}</td>
+<td>{{ student.course }}</td>
+<td>{{ student.age }}</td>
+
+<td>
+<a class="edit-btn" href="/update/{{student.id}}/">Edit</a>
+<a class="delete-btn" href="/delete/{{student.id}}/">Delete</a>
+</td>
+
+</tr>
+
+{% endfor %}
+
+</table>
+
+</div>
