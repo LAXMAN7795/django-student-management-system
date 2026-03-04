@@ -87,7 +87,7 @@ HTML response is returned to the browser
 📄 Student List Page
 ![student list](images/show.png)
 ➕ Add Student Page
-![add student](images/view.png)
+![add student](images/add.png)
 ✏️ Edit / Delete Student Page
 ![delete/update]
 📌 CRUD Operations Implemented
