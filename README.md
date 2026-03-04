@@ -89,7 +89,7 @@ HTML response is returned to the browser
 ➕ Add Student Page
 ![add student](images/add.png)
 ✏️ Edit / Delete Student Page
-![delete/update]
+![delete/update](images/delete.png)
 📌 CRUD Operations Implemented
 Operation	Description
 Create	Add new student record
