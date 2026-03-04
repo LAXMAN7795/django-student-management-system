@@ -86,7 +86,7 @@ HTML response is returned to the browser
 
 📸 Screenshots
 📄 Student List Page
-![student list](images/view.png)
+![image alt](https://github.com/LAXMAN7795/django-student-management-system/blob/a8edea94a50439a89617036d2d3a1a48eedc0d61/images/view.png)
 
 ➕ Add Student Page
 
