@@ -52,7 +52,6 @@ django-student-management-system
 
 Clone the repository
 
-```bash
 git clone https://github.com/YOUR_USERNAME/django-student-management-system.git
 
 Navigate into the project
@@ -86,8 +85,7 @@ HTML response is returned to the browser
 
 📸 Screenshots
 📄 Student List Page
-![image alt](https://github.com/LAXMAN7795/django-student-management-system/blob/a8edea94a50439a89617036d2d3a1a48eedc0d61/images/view.png)
-
+![student list](images/show.png)
 ➕ Add Student Page
 
 ✏️ Edit / Delete Student Page
@@ -118,6 +116,6 @@ Version control using Git and GitHub
 
 Laxman Sannu Gouda
 
-GitHub: https://github.com/YOUR_USERNAME
+GitHub: https://github.com/LAXMAN7795
 
-LinkedIn: Add your LinkedIn link here
+LinkedIn: https://www.linkedin.com/in/laxman-gouda/
